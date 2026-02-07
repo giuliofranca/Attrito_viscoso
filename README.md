@@ -1,6 +1,8 @@
 # Attrito_viscoso
 Progetto esame Metodi Computazionali per la Fisica
-Candidato: Giulio Franca (mat.365809) 
+
+Candidato: Giulio Franca (mat.365809)
+
 Data della prova: 19/02/2026
 
 Lo scopo di tale progetto è l'analisi del moto bidimensionale di un grave lanciato con un determinato angolo rispetto alla verticale, considerando il campo gravitazionale terrestre e l'attrito viscoso dell'aria.
