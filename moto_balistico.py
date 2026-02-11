@@ -68,7 +68,12 @@ def parse_arguments():
     --------------
     Argomenti facoltativi : posizione iniziale. Se non specificato (x0, y0) = (0,0)
     """
-    parser = argparse.ArgumentParser(description = 'Simula il moto balistico di un corpo con attrito viscoso lineare, calcolando traiettoria, gittata, altezza massima e velocità massima. I parametri da configurare sono coefficiente di attrito (k), massa (m), velocità iniziali (vx0, vy0) e posizioni iniziali (x0, y0). Se non altrimenti specificato, la posizione iniziale sarà (0,0)')
+    parser = argparse.ArgumentParser(description = 'Simula il moto balistico' \
+    ' di un corpo con attrito viscoso lineare, calcolando traiettoria, gittata,' \
+    ' altezza massima e velocità massima. I parametri da configurare sono ' \
+    'coefficiente di attrito (k), massa (m), velocità iniziali (vx0, vy0) e ' \
+    'posizioni iniziali (x0, y0). Se non altrimenti specificato, la posizione ' \
+    'iniziale sarà (0,0)')
 
     parser.add_argument('--k', type= float, required= True, help = 'Coefficiente di attrito viscoso')
     parser.add_argument('--m', type= float, required= True, help= 'Massa del grave')
