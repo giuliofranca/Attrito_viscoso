@@ -12,8 +12,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
-from scipy import integrate
-from scipy import optimize
+from scipy import integrate, optimize
 
 import moto_balistico
 
